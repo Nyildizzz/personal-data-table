@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    height: 90px;
+    width: 1500px;
+    background-color: #FFFFFF;
+}
+.searchInput{
+    height: 50px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    padding-left: 20px;
+}
+.deleteContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    gap: 10px;
+}
+.deleteButton{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #82868c;
+    cursor: pointer;
+    
+
+    
+}

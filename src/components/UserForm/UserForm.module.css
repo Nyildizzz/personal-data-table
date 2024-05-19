@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    margin: 0 auto;
+    height: 85vh;
+    
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+}
+.formGroup{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.btnContainer{
+    display: flex;
+    justify-content: center;
+}
+.text{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: #82868C;
+}
+.closeBtn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+
+
+
