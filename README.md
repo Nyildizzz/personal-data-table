@@ -4,7 +4,7 @@ Bu proje Frontend Intership-23 Privia Security için oluşturulmuştur.
 
 ## Proje Özeti
 
-Bu proje, bir kullanıcı form modalı kullanılarak kullanıcıların oluşturulmasını, bir Users Datatable'da listelenmesini, her bir kullanıcının bilgilerinin bu modal aracılığıyla düzenlenebilir olmasını ve kullanıcıların bu datatable'dan silinebilir olmasını sağlar. Ayrıca, kullanıcıların rollerine göre filtrelenmiş sekmelerde listelenebilirler. Projede Next.js , Module.css ve Material UI kullanılmıştır. 
+Bu proje, bir kullanıcı form modalı kullanılarak kullanıcıların oluşturulmasını, bir Users Datatable'da listelenmesini, her bir kullanıcının bilgilerinin bu modal aracılığıyla düzenlenebilir olmasını ve kullanıcıların bu datatable'dan silinebilir olmasını sağlar. Ayrıca, kullanıcıların rollerine göre filtrelenmiş sekmelerde listelenebilirler. Projede Next.js , Module.css ve Material UI kullanılmıştır. Ayrıca projeye master branchden ulaşabilirsiiz.
 
 ## Gereksinimler
 
