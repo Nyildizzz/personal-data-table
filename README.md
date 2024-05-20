@@ -1,50 +1,36 @@
-Personal Data Table
-This project was created for the Frontend Internship-23 at Privia Security.
+# personal-data-table
 
-Project Brief
-This project involves the creation and management of user data through a user-friendly interface. Below are the key functionalities that have been implemented:
+Bu proje Frontend Intership-23 Privia Security için oluşturulmuştur.
 
-Features
-User Creation
+## Proje Özeti
 
-Users can be created using a user form modal.
-User Listing
+Bu proje, bir kullanıcı form modalı kullanılarak kullanıcıların oluşturulmasını, bir Users Datatable'da listelenmesini, her bir kullanıcının bilgilerinin bu modal aracılığıyla düzenlenebilir olmasını ve kullanıcıların bu datatable'dan silinebilir olmasını sağlar. Ayrıca, kullanıcıların rollerine göre filtrelenmiş sekmelerde listelenebilirler. 
 
-Created users are listed in a data table.
-User Editing
+## Gereksinimler
 
-Information for each listed user can be edited using the user form modal.
-User Deletion
+Proje içinde şu özelliklerin bulunması gerekmektedir:
+- Kullanıcı Form modalı: Yeni kullanıcıların oluşturulması için kullanılır.
+- Users Datatable: Oluşturulan kullanıcıların listelendiği tablo.
+- Edit özelliği: Her bir kullanıcının bilgilerinin düzenlenebilir olması.
+- Silme özelliği: Her bir kullanıcının datatable'dan silinebilir olması.
+- Rol tabanlı filtreleme: Kullanıcıların rollerine göre listelenmeleri sağlanmalıdır.
+- Yorumlar: Kod içinde bırakılan yorumlar, ilgili istekler doğrultusunda dikkate alınmalıdır.
+- Pagination: DataTable sayfasında sayfalama özelliği bulunmalıdır.
 
-Each user can be deleted from the data table.
-Role-Based Filtering
+## Eksikler
 
-Users can be filtered based on their roles using tabs.
-Pagination
+Proje içinde şu özelliklerin eksik olduğu belirtilmiştir:
+- Pagination: Sayfalama özelliği henüz tamamlanmamıştır.
+- Checkbox ile silme: Kullanıcıların seçilerek topluca silinebilmesi için checkbox özelliği ve silme butonu eklenmemiştir.
 
-The data table page includes pagination for better data management and user experience.
-Implementation Notes
-Pay special attention to the comments left on the components for specific requirements and instructions.
-Unfinished Features
-Pagination: The pagination feature is partially implemented but needs further work.
-Checkbox-based Deletion: The functionality to delete multiple users using checkboxes is currently incomplete.
-How to Run the Project
-Clone the repository to your local machine.
-Navigate to the project directory.
-Install the necessary dependencies using npm install.
-Start the development server using npm start.
-File Structure
-src
-components
-UserFormModal.js: Component for the user form modal.
-UserDataTable.js: Component for the user data table.
-RoleTabs.js: Component for role-based filtering tabs.
-pages
-HomePage.js: Main page that integrates all components.
-styles
-styles.css: Styling for the components and pages.
-Future Improvements
-Complete Pagination: Implement full pagination functionality to navigate through large sets of user data.
-Implement Checkbox-based Deletion: Add the ability to delete multiple users at once using checkboxes in the data table.
-Conclusion
-This project provides a solid foundation for user data management with essential functionalities such as creation, listing, editing, deletion, and role-based filtering. Future improvements will enhance the user experience and add more robust features.
+## Nasıl Kullanılır
+
+Proje dosyalarını bilgisayarınıza indirdikten sonra gerekli bağımlılıkları yükleyin ve projeyi çalıştırın. Ardından tarayıcınızda projenin çalıştığı adresi ziyaret ederek kullanıcıları ekleyebilir, düzenleyebilir ve silebilirsiniz.
+
+## Katkılar
+
+Bu proje geliştirilirken katkı yapmak isterseniz, lütfen forklayın ve pull request gönderin. Büyük değişiklikler için önce tartışma bölümünde bir konu açmayı unutmayın.
+
+## Lisans
+
+Bu proje MIT lisansı altında lisanslanmıştır. Detaylı bilgi için [LICENSE](LICENSE) dosyasını inceleyebilirsiniz.
